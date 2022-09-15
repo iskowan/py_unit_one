@@ -43,7 +43,24 @@ def rhombus():
         t.fd(50)
         t.rt(60)
 
-rhombus()
+
+#t.hideturtle()
+def makeACube():
+    t.rt(30)
+    rhombus()
+    t.rt(120)
+    rhombus()
+    t.rt(120)
+    rhombus()
+
+makeACube()
+t.fd(100)
+t.rt(30)
+makeACube()
+t.fd(50)
+t.rt(-60)
+t.fd(50)
+
 
 
 turtle.exitonclick()
