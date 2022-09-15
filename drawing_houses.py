@@ -22,13 +22,13 @@ def makeATriangle(color, size):
         t.rt(120)
     t.end_fill()
 
-# this combines them to make it one definition
+# this combines them to make it one def
 def makeHouse(color, size, color2, size2):
     makeASquare(color, size)
     makeATriangle(color2, size2)
 
 
-
+inition
 t.speed(100)
 #this makes a house and states the colors
 makeHouse("blue", 100, "red", 100)
@@ -36,6 +36,7 @@ t.penup()
 t.goto(-100, -50)
 t.lt(300)
 t.pendown()
+# this is another house
 makeHouse("green", 50, "yellow", 50)
 t.penup()
 t.goto(-175,-25)

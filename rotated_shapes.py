@@ -35,7 +35,7 @@ def spiral():
         t.right(90)
         side = side + 2
 
-#making rhombus shaped thing
+#making rhombus repeated shaped thing
 def rhombus():
     for x in range(2):
         t.fd(50)
@@ -56,7 +56,6 @@ def makeAThing():
         t.rt(-60)
     t.fd(50)
 
-t.speed(500)
 def makeAThing2():
     makeACube()
     t.fd(100)
@@ -71,9 +70,23 @@ def makeAThing2():
     t.rt(-60)
     t.fd(50)
 
+t.speed(500)
 makeAThing2()
 t.fd(50)
-t.rt(90)
+t.rt(60)
+t.fd(50)
+t.rt(60)
+t.fd(50)
+t.rt(60)
+t.fd(50)
+t.rt(120)
+t.fd(50)
+t.rt(60)
+t.fd(50)
+t.rt(-60)
+t.fd(50)
+t.rt(-60)
+t.fd(50)
 
 
 
