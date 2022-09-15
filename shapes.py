@@ -15,6 +15,4 @@ turtle.forward(300)
 turtle.pendown()
 draw_square(50, "gold")
 
-
-
 turtle.exitonclick()

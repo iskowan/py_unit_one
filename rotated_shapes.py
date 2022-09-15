@@ -1,5 +1,5 @@
 import turtle
-
+t = turtle.Turtle()
 turtle.speed(500)
 def makeASquare():
     for x in range(20):
@@ -29,7 +29,6 @@ def shapeAngle1():
 turtle.speed(5000)
 
 def spiral():
-    t = turtle.Turtle()
     side = 5
     turtle.hideturtle()
     for i in range(100):
@@ -37,7 +36,14 @@ def spiral():
         t.right(90)
         side = side + 2
 
+def rhombus():
+    for x in range(2):
+        t.fd(50)
+        t.rt(120)
+        t.fd(50)
+        t.rt(60)
 
-hexagon()
+rhombus()
+
 
 turtle.exitonclick()
